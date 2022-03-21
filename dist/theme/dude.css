@@ -361,7 +361,7 @@ section.has-light-background, section.has-light-background h1, section.has-light
 }
 
 .reveal .progress {
-  height: 10px;
+  height: 3px;
 }
 .reveal .hljs {
   border-radius: 4px;
@@ -385,6 +385,16 @@ section.has-light-background, section.has-light-background h1, section.has-light
 .reveal ul,
 .reveal ol {
   line-height: 1.5;
+}
+.reveal ul ul,
+.reveal ol ul {
+  margin-left: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.reveal ul ul li,
+.reveal ol ul li {
+  font-size: 1.2em;
 }
 .reveal ul.no-bullets {
   list-style: none;
